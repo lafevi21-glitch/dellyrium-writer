@@ -32,7 +32,7 @@ def temp_authenticate():
             # Store data in session state for the next page
             app.session_state["logged_user"] = na_username
             # Switch to the page inside the 'pages' folder
-            app.switch_page("mainpage.py")
+            app.switch_page("pages/mainpage.py")
         else:
             app.error("Invalid login prompt.")
 
