@@ -34,6 +34,6 @@ def temp_authenticate():
             # Switch to the page inside the 'pages' folder
             app.switch_page("pages/mainpage.py")
         else:
-            app.error("Invalid login prompt."
+            app.error("Invalid login prompt.")
 
 temp_authenticate()
