@@ -13,3 +13,5 @@ def mainpage_main():
     app.subheader("Documents 📄")
 
     app.button("Create a document", icon="+")
+
+mainpage_main()
