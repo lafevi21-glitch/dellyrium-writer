@@ -32,7 +32,9 @@ def mainpage_main():
     # ---------------------------------------------------
 
     app.subheader("Documents 📄")
+    app.write("You may either create or open a document, please note that currently DellyWrite only accepts **.txt**. \n We are currently developing a way to upload a **.csv** file. \n *Happy Writing 😀*")
 
     app.button("Create a document", icon="➕")
+
 
 mainpage_main()
