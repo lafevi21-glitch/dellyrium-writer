@@ -33,6 +33,6 @@ document_body = st_quill(
     key="quill_editor"
 )
 
-with document_body(border=True):
+with app.container(border=True):
     app.markdown("### Preview")
     app.write(document_body, unsafe_allow_html=True)
