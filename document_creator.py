@@ -1,7 +1,3 @@
-import streamlit as app
+import streamlit as st
 
-app.textarea(
-    "Title",
-    placeholder="My Beautiful Document",
-    height=400
-    )
+st.textarea("Title", placeholder="My Beautiful Document", height=400)
