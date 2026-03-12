@@ -1,7 +1,7 @@
 import streamlit as app
 from streamlit_quill import st_quill
 
-st.markdown("""
+app.markdown("""
     <style>
     /* Change the toolbar background and icon colors */
     .ql-toolbar {
