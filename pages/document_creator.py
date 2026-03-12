@@ -8,5 +8,5 @@ document_body = st_quill(
 )
 
 if document_body:
-    st.markdown("### Preview")
-    st.write(document_body, unsafe_allow_html=True)
+    app.markdown("### Preview")
+    app.write(document_body, unsafe_allow_html=True)
