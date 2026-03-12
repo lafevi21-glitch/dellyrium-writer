@@ -38,7 +38,7 @@ def mainpage_main():
     app.write("You may either create or open a document, please note that currently DellyWrite only accepts **.txt**. \n We are currently developing a way to upload a **.csv** file. \n *Happy Writing 😀*")
 
     if app.button("Create a document", icon="➕"):
-        app.switch_page("pages/document_creator")
+        app.switch_page("document_creator")
 
 
 
