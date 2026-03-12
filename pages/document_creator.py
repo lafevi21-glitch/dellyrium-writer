@@ -2,8 +2,8 @@ import streamlit as app
 from streamlit_quill import st_quill
 
 document_body = st_quill(
-    placeholder="Blank body"
-    html=True
+    placeholder="Blank body",
+    html=True,
     key="quill_editor"
 )
 
