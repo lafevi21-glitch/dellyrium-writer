@@ -3,27 +3,27 @@ from streamlit_quill import st_quill
 
 app.markdown("""
     <style>
-    /* Change the toolbar background and icon colors */
-    .ql-toolbar {
-        background-color: #1a1a1a !important;
-        border-color: #333 !important;
+    /* The Toolbar */
+    .ql-toolbar.ql-snow {
+        background-color: #1E1E1E !important;
+        border: 1px solid #333 !important;
+        border-radius: 8px 8px 0 0;
     }
-    .ql-toolbar .ql-stroke {
-        stroke: #fff !important;
-    }
-    .ql-toolbar .ql-fill {
-        fill: #fff !important;
-    }
-    .ql-toolbar .ql-picker {
-        color: #fff !important;
+    /* Toolbar Icons & Text */
+    .ql-snow .ql-stroke { stroke: #E0E0E0 !important; }
+    .ql-snow .ql-fill { fill: #E0E0E0 !important; }
+    .ql-snow .ql-picker { color: #E0E0E0 !important; }
+
+    /* The Editor Background */
+    .ql-container.ql-snow {
+        background-color: #0F0F0F !important;
+        border: 1px solid #333 !important;
+        border-radius: 0 0 8px 8px;
+        color: #FFFFFF !important;
     }
 
-    /* Change the main text area background */
-    .ql-container {
-        background-color: #000000 !important;
-        border-color: #333 !important;
-        color: #ffffff !important;
-    }
+    /* Hover effects for buttons */
+    .ql-snow.ql-toolbar button:hover .ql-stroke { stroke: #FF4B4B !important; }
     </style>
     """, unsafe_allow_html=True)
 
